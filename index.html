@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Главная</title> 
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+	  <div class="wrapper">
+		<header class="header">
+			<div class="header__inner">
+				<nav class="header__nav nav">
+					<a class="nav__logo-link">
+					</a>
+					<ul class="nav__list">
+						<li class="nav__item nav__item-first">
+							<a class="nav__link nav__link--active elem" href="info.html">Информация</a>
+						</li>
+						<li class="nav__item nav__item-second">
+							<a class="nav__link elem" href="foto-video.html">Фото и видео</a>
+						</li>
+						<li class="nav__item nav__item-third">
+							<a class="nav__link elem" href="map.html">Карта штата</a>
+						</li>
+						<li class="nav__item nav__item-fourth">
+							<a class="nav__link elem" href="catalog.html">Гостиницы</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="content">
+			<div class="header__background-logo logo">
+			</div>
+			<div class="header__wrapper">
+				<div class="wrapper__title">
+					<h1 class="title__slogan">Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
+					<p class="title__text">Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
+				</div>
+			</div>
+			<section class="content__nav info-nav">
+				<div class="info-nav__block">
+					<div class="info-nav__text">
+						<h2 class="info-nav__title">Настоящий городок</h2>
+						<p class="info-nav__hr">- №1 -</p>
+						<p class="info-nav__desc">Седона&nbsp;&mdash; не&nbsp;аттракцион для туристов, там течет своя жизнь</p>
+					</div>
+				</div>
+				<div class="info-nav__photo photo">
+				</div>
+			</section>
+			<section class="content__header info-header">
+				<div class="info-header__housing">
+					<div class="info-header__icon icon__housing">
+					</div>
+					<h3 class="info-header__title">Жилье</h3>
+					<p class="info-header__text">Рекомендуем пожить в&nbsp;настоящем мотеле, все как в&nbsp;кино!</p>
+				</div>
+				<div class="info-header__food">
+					<div class="info-header__icon icon__food">
+					</div>
+					<h3 class="info-header__title">Еда</h3>
+					<p class="info-header__text">Всегда, заказывайте фирменный бургер, Вы&nbsp;не&nbsp;разочаруетесь!</p>
+				</div>
+				<div class="info-header__souvenir">
+					<div class="info-header__icon icon__souvenir">
+					</div>
+					<h3 class="info-header__title">Сувениры</h3>
+					<p class="info-header__text">Не&nbsp;только китайского, но&nbsp;и&nbsp;местного производства!</p>
+				</div>
+			</section>
+			<section class="content__main info-main">
+				<div class="info-main__photo">
+				</div>
+				<div class="info-main__text">
+					<h2 class="info-main__title">Там есть Мост Дьявола</h2>
+					<p class="info-main__hr">— №2 —</p>
+					<p class="info-main__desc">Да, по&nbsp;нему можно пройтись! Если конечно<br>Вы осмелитесь</p>
+				</div>
+			</section>
+			<section class="content__footer info-footer">
+				<div class="info-footer__S">
+					<h2 class="info-footer__title">Небольшая площадь</h2>
+					<p class="info-footer__hr">— №3 —</p>
+					<p class="info-footer__desc">Все достопримечательности находятся очень близко</p>
+				</div>
+				<div class="info-footer__road">
+					<h2 class="info-footer__title">Красивая дорога</h2>
+					<p class="info-footer__hr">— №4 —</p>
+					<p class="info-footer__desc">Ехать в&nbsp;Седону из&nbsp;Лас-Вегаса совсем не&nbsp;скучно!</p>				
+				</div>
+				<div class="info-footer__tourist">
+					<h2 class="info-footer__title">Мало туристов</h2>
+					<p class="info-footer__hr">— №5 —</p>
+					<p class="info-footer__desc">Большинство едет в&nbsp;Гранд Каньон и&nbsp;толпится там</p>
+				</div>
+			</section>
+			<section class="content__travel travel">
+				<div class="travel__text">
+					<h2 class="travel__title">Заинтересовались?</h2>
+					<p class="travel__desc">Укажите предполагаемые даты поездки,<br> и&nbsp;мы&nbsp;покажем Вам лучшие предложения гостиниц в&nbsp;Седоне</p>
+				</div>			
+				<div class="travel__search">
+					<button class="travel__btn btn" type="submit">Поиск гостиницы в Седоне</button>
+				</div>
+				<div class="travel__map map">
+				<article class="travel__hotels elem">
+					<form class="travel__info info" method="post" action="https://echo.htmlacademy.ru">
+						<div class="info__date-in in">
+							<label class="in__label" for="text-in">Дата заезда:</label>
+							<input class="in__label-text" type="text" name="date" id="text-in" placeholder="24 Апреля 2017" value="">
+							<svg class="out__img" xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
+						</div>
+						<div class="info__date-out out">
+							<label class="out__label" for="text-out">Дата выезда:</label>
+							<input class="out__label-text" type="text" name="date" id="text-out" placeholder="4 Июня 2017">
+							<svg class="in__img" xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
+						</div>
+						<div class="info__wrapper">
+							<div class="info__older older">
+								<label class="older__label" for="number-older">Взрослые:</label>
+								<div class="older__button">
+									<a href="#number-older" class="older__number-minus" title="Уменьшить колличество" onclick="minusCount(this); return false;">
+										<svg class="older__svg-minus" xmlns="http://www.w3.org/2000/svg" width="9.917" height="1.917" viewBox="0 0 9.917 1.917"><path d="M0 0h9.917v1.917h-9.917z"></path></svg>
+									</a>
+									<input class="older__label-numbers" type="text" name="people" id="number-older" value="2">
+									<a href="#number-older" class="older__number-plus" title="Увеличить колличество" onclick="plusCount(this); return false;">
+										<svg class="older__svg-plus" xmlns="http://www.w3.org/2000/svg" width="9.917" height="9.917" viewBox="0 0 9.917 9.917"><path d="M9.917 4h-4v-4h-1.917v4h-4v1.917h4v4h1.917v-4h4z"></path></svg>
+									</a>
+								</div>
+							</div>
+							<div class="info__kids kids">
+								<label class="kids__label" for="number-kids">Дети:</label>
+								<div class="kids__button">
+									<a href="#number-kids" class="kids__number-minus" title="Уменьшить колличество" onclick="minusCount(this); return false;">
+										<svg class="kids__svg-minus" xmlns="http://www.w3.org/2000/svg" width="9.917" height="1.917" viewBox="0 0 9.917 1.917"><path d="M0 0h9.917v1.917h-9.917z"></path></svg>
+									</a>
+									<input class="kids__label-numbers" type="text" name="people" id="number-kids" value="0">
+									<a href="#number-kids" class="kids__number-plus" title="Увеличить колличество" onclick="plusCount(this); return false;">
+										<svg class="kids__svg-plus" xmlns="http://www.w3.org/2000/svg" width="9.917" height="9.917" viewBox="0 0 9.917 9.917"><path d="M9.917 4h-4v-4h-1.917v4h-4v1.917h4v4h1.917v-4h4z"></path></svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="info__catalog catalog">
+							<button class="catalog__btn" type="submit">Найти</button>
+						</div>
+					</form>
+				</article> 
+					<iframe class="map__yandex" src="https://yandex.ru/map-widget/v1/?um=constructor%3A2769fe2568c5f4ca207e22e0b03454e660ceb965dc480294ae621e0ce618c207&amp;lang=ru_RU&amp;scroll=true&amp;source=constructor"></iframe>
+				</div>
+			</section>
+		</main>
+		<footer class="main-footer">
+			<div class="main-footer__wrapper">
+				<div class="main-footer__tag tag">
+					<a class="tag__link elem" href="#">#VisitSedona</a>
+				</div>
+				<div class="main-footer__social social">	
+					<a class="social__link tw__link" href="#" target="_blank" title="Наша страница в Twitter">
+						<svg class="social__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
+					</a>
+					<a class="social__link fb__link" href="#" target="_blank" title="Наша страница в Facebook">
+						<svg class="social__svg" xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+					</a>
+					<a class="social__link yb__link" href="#" target="_blank" title="Наша страница на YouTube">
+						<svg class="social__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
+					</a>
+				</div>
+				<div class="main-footer_developer developer">
+					<p class="developer__text">Website by</p>
+					<a class="developer__link" href="https://htmlacademy.ru/intensive/htmlcss">
+						<svg class="developer__img" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.08 36.85"><title>logo-htmlacademy-small1</title><path d="M44.61,26.88a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,39.63,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1,0-2.16.33-2.16,1.38h0Zm12.36-6.11a5,5,0,0,1,2.57.64V22a4.08,4.08,0,0,0-2.3-.7,2.75,2.75,0,1,0,0,5.49,5,5,0,0,0,2.43-.64v1.71a6.27,6.27,0,0,1-2.76.57A4.21,4.21,0,0,1,46,24.51q0-.21,0-0.41a4.32,4.32,0,0,1,4.18-4.46h0.38Zm12.17,7.24a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,57.73,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1.06,0-2.16.33-2.16,1.38h0ZM73,16V28.2H71.35V26.88a3.88,3.88,0,0,1-3.19,1.54,4.4,4.4,0,0,1,0-8.78,3.81,3.81,0,0,1,3,1.3V16H73Zm-4.53,5.22a2.76,2.76,0,1,0,0,5.52A2.86,2.86,0,0,0,71.15,25V23A2.91,2.91,0,0,0,68.49,21.27ZM79,19.64c3.31,0,4.46,2.68,3.92,5.09H76.7c0.21,1.5,1.67,2.11,3.19,2.11a6.11,6.11,0,0,0,2.64-.59v1.6a7.14,7.14,0,0,1-3,.57C77,28.42,74.78,27,74.78,24a4.18,4.18,0,0,1,4-4.39H79Zm0.09,1.54a2.28,2.28,0,0,0-2.44,2.1v0.06H81.3A2,2,0,0,0,79.13,21.18Zm5.73,7V19.87h1.65v1a3.81,3.81,0,0,1,2.78-1.27A2.86,2.86,0,0,1,91.89,21a4.12,4.12,0,0,1,2.91-1.33A3.06,3.06,0,0,1,98,23V28.2h-1.9V23.05a1.59,1.59,0,0,0-1.42-1.75H94.42a2.8,2.8,0,0,0-2.07,1.12V28.2h-1.9V23.05A1.59,1.59,0,0,0,89,21.31H88.8a3,3,0,0,0-2.21,1.29v5.63H84.86Zm21.31-8.33h1.9l-3.91,9.46c-0.9,2.17-2.09,2.86-3.35,2.86a4.76,4.76,0,0,1-1.1-.14V30.46a2.86,2.86,0,0,0,.85.12c0.9,0,1.58-.64,2.07-1.9l0.17-.42-4-8.4h2l2.86,6.29ZM38.73,1.46V6.22a3.81,3.81,0,0,1,2.7-1.14,3.25,3.25,0,0,1,3.44,3.4v5.15H43V8.72a1.81,1.81,0,0,0-1.61-2h-0.3a2.93,2.93,0,0,0-2.32,1.39v5.52h-1.9V1.46h1.9ZM49.94,2.31v3h3V6.91h-3v3.81c0,1.1.5,1.46,1.58,1.46a4.49,4.49,0,0,0,1.69-.33v1.6A6.8,6.8,0,0,1,51,13.8a2.55,2.55,0,0,1-2.86-2.74V6.89H46.58V5.26h1.5V2.74Zm5.4,11.31V5.28H57v1A3.81,3.81,0,0,1,59.77,5a2.86,2.86,0,0,1,2.6,1.33A4.12,4.12,0,0,1,65.28,5,3.06,3.06,0,0,1,68.44,8.4v5.21h-1.9V8.46a1.59,1.59,0,0,0-1.42-1.75H64.89a2.8,2.8,0,0,0-2.07,1.12v5.78h-1.9V8.46A1.59,1.59,0,0,0,59.5,6.71H59.27A3,3,0,0,0,57.06,8v5.63H55.34ZM71.17,1.45H73V13.6H71.17V1.45ZM14.71,0H14.55L0,1.54V28.21l14.55,8.66,14.55-8.66V1.54Zm12.5,27.1L14.55,34.64,1.9,27.12V16.18l12.59,7.5V25L5.86,19.9v1.31l8.68,5.21v1.39L5.87,22.65V24l8.68,5.21,8.75-5.24V18.31L27.2,16V27.12Zm0-12.53-3.48,2-1.6,1L14.51,13v1.31L21,18.23H21l-0.14.09-1,.54-5.37-3.2V17l4.24,2.52-1,.67-3.2-1.9v1.31l2.1,1.24L14.5,22.1,2,14.65,14.51,7.11Zm0-1.32L14.49,5.76,1.91,13.25v-10L14.56,1.92,27.21,3.25v10h0Z" transform="translate(0 -0.02)"/></svg>
+					</a>	
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/script.min.js"></script>
+  </body>
+</html>	
